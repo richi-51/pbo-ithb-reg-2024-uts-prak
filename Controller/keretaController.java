@@ -78,8 +78,9 @@ public class keretaController {
                     else{
                         return "Tipe Class tidak tersedia";
                     }
+                }else{
+                    return "Metode payment tidak tersedia";
                 }
-                return "Metode payment tidak tersedia";
             }
 
             return "Payment success!";

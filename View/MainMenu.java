@@ -12,8 +12,8 @@ public class MainMenu {
     }
 
     public void show(Ticket ticket, String gateway, Date lookDate){
+        System.out.println(ticket.getPassenger().getPassengerInfo());
         printStatusMakePayment(ticket, gateway);
-        System.out.println();
         printTotalRevenue(lookDate);
     }
 
